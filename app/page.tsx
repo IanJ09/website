@@ -8,7 +8,6 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <React.StrictMode>
     <div className="flex flex-col min-h-screen bg-transparent text-white">
       <div className="fixed inset-0 -z-10">
       </div>
@@ -299,7 +298,6 @@ export default function Home() {
         <p className="text-xs text-gray-400">© 2024 Ian Jiang. All rights reserved.</p>
       </footer>
     </div>
-    </React.StrictMode>
   )
 }
 
