@@ -3,10 +3,7 @@
 import React from 'react'
 import { Button } from "@/components/ui/button"
 import { Github, Linkedin, Mail, Gift, ExternalLink } from 'lucide-react'
-import { Canvas } from "@react-three/fiber"
-import { Suspense } from "react"
 import { ContactButton } from "../components/ContactButton"
-import { ErrorBoundary } from 'react-error-boundary'
 import Link from 'next/link';
 
 export default function Home() {
